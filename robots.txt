@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://katkaskitchen.com.au/sitemap.xml

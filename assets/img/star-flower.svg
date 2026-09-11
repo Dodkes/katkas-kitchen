@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <path id="a" d="M60 4 C68 30 68 38 60 58 C52 38 52 30 60 4 Z"/>
+    <path id="b" d="M60 20 C65 38 65 44 60 58 C55 44 55 38 60 20 Z"/>
+  </defs>
+  <g fill="#3B4FDE">
+    <use href="#a"/><use href="#a" transform="rotate(45 60 60)"/><use href="#a" transform="rotate(90 60 60)"/>
+    <use href="#a" transform="rotate(135 60 60)"/><use href="#a" transform="rotate(180 60 60)"/><use href="#a" transform="rotate(225 60 60)"/>
+    <use href="#a" transform="rotate(270 60 60)"/><use href="#a" transform="rotate(315 60 60)"/>
+    <use href="#b" transform="rotate(22.5 60 60)"/><use href="#b" transform="rotate(67.5 60 60)"/><use href="#b" transform="rotate(112.5 60 60)"/>
+    <use href="#b" transform="rotate(157.5 60 60)"/><use href="#b" transform="rotate(202.5 60 60)"/><use href="#b" transform="rotate(247.5 60 60)"/>
+    <use href="#b" transform="rotate(292.5 60 60)"/><use href="#b" transform="rotate(337.5 60 60)"/>
+    <circle cx="60" cy="60" r="11"/>
+  </g>
+  <circle cx="60" cy="60" r="5" fill="#FBF7F0"/>
+</svg>
