@@ -86,15 +86,13 @@ Every figure on the site is a guess at Gold Coast market rates. Locations:
 |---|---|
 | `index.html` | "A few favourites" list |
 | `celebration-cakes/` | 6 product tiles + "Sizes and serves" list |
-| `wedding-cakes/` | 6 product tiles |
 | `slovak-desserts/` | 6 product tiles + "Also on the tray" list |
 | `pastries-and-bread/` | 6 product tiles + "Bread" list |
 | `faq/` | "How much does a cake cost?" |
 
-Also invented: the **30% deposit**, the **$45 tasting box** credited against the booking,
-and every **notice period** (two weeks for cakes, Thursday for weekend bread, six to nine
-months for weddings). These appear on product pages, the FAQ and the contact page — make
-them match how Katka actually wants to work, then keep them consistent.
+Also invented: the **30% deposit** and every **notice period** (two weeks for cakes,
+Thursday for weekend bread). These appear on product pages, the FAQ and the contact
+page — make them match how Katka actually wants to work, then keep them consistent.
 
 ---
 

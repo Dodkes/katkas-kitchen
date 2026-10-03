@@ -23,7 +23,6 @@ python3 -m http.server 8000
 ```
 index.html                  Home
 celebration-cakes/          Birthday & celebration cakes
-wedding-cakes/              Wedding cakes & Slovak sweet tables
 slovak-desserts/            Medovník, kremeš, punch slices…
 pastries-and-bread/         Buchty, koláče, šišky, bread
 gallery/                    Photo grid (placeholders for now)
