@@ -7,6 +7,8 @@ any size, stays sharp on retina screens, and recolours from the CSS variables in
 | File | Used for |
 |---|---|
 | `logo-mark.png` | The folk heart wreath. Hero panel, About page, 404 page. |
+| `logo-motif-bird.png` | Isolated rooster detail cropped from the full logo, used for the homepage feature icon. |
+| `logo-motif-flower.png` | Isolated blue flower detail cropped from the full logo, used for the homepage feature icon. |
 | `logo-badge.svg` | Compact square mark. Header and footer — stays legible at 42px, which the full wreath does not. |
 | `favicon.svg` | Browser tab icon. |
 | `apple-touch-icon.png` | 180×180, iOS home screen. |
@@ -16,7 +18,7 @@ any size, stays sharp on retina screens, and recolours from the CSS variables in
 | `pattern-folk.svg` | Tiling background, blue at 4% opacity. Light sections. |
 | `pattern-folk-light.svg` | Same tile in cream, for the footer and CTA band. |
 | `divider.svg` | The `.folk-rule` section divider. |
-| `rosette.svg`, `star-flower.svg`, `swirl.svg`, `heart.svg` | Individual motifs. Feature icons, and the watermark on `.card`. |
+| `rosette.svg`, `star-flower.svg`, `swirl.svg`, `heart.svg` | Individual motifs used as clean homepage feature icons and the watermark on `.card`. |
 | `medallion-1…4.svg` | Product tile artwork, standing in for photographs. |
 
 ## Swapping in the real logo
