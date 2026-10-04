@@ -62,7 +62,7 @@
       form.reset();
       say('ok', 'Thank you — your enquiry is on its way. Katka will reply within one business day.');
     }).catch(function () {
-      say('err', 'Sorry, something went wrong. Please email info@katkaskitchen.com.au or call 0491 570 006.');
+      say('err', 'Sorry, something went wrong. Please email info@katkaskitchen.com.au or call 0404 335 142.');
     }).finally(function () {
       submit.disabled = false;
     });

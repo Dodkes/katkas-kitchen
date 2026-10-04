@@ -1,4 +1,4 @@
-﻿# Katka's Kitchen â€” katkaskitchen.com.au
+# Katka's Kitchen — katkaskitchen.com.au
 
 Static website for a Slovak home-baking business on the Gold Coast, QLD.
 
@@ -22,10 +22,9 @@ python3 -m http.server 8000
 
 ```
 index.html                  Home
-cakes/          Birthday & custom cakes
-wedding-cakes/              Wedding cakes & Slovak sweet tables
-slovak-desserts/            MedovnÃ­k, kremeÅ¡, punch slicesâ€¦
-pastries-and-bread/         Buchty, kolÃ¡Äe, Å¡iÅ¡ky, bread
+celebration-cakes/          Birthday & celebration cakes
+slovak-desserts/            Medovník, kremeš, punch slices…
+pastries-and-bread/         Buchty, koláče, šišky, bread
 gallery/                    Photo grid (placeholders for now)
 about/                      Katka's story
 faq/                        Ordering, allergens, prices
@@ -36,7 +35,7 @@ privacy/                    Privacy policy
 assets/css/site.css         All styling. Design tokens are at the top in `:root`.
 assets/js/site.js           Mobile menu + enquiry form submit. ~60 lines.
 assets/img/*.svg            Folk ornaments, logo, patterns, product medallions.
-assets/img/og-image.png     1200Ã—630 social sharing card.
+assets/img/og-image.png     1200×630 social sharing card.
 
 robots.txt  sitemap.xml  site.webmanifest  _headers
 ```
@@ -44,16 +43,16 @@ robots.txt  sitemap.xml  site.webmanifest  _headers
 Each page is standalone, so the header and footer markup is repeated in all eleven files.
 That is the trade-off for having no build step: a change to the navigation means editing
 eleven files (find-and-replace handles it). If the site grows past a dozen pages, move to
-Eleventy â€” it outputs the same static HTML, so nothing here would be wasted.
+Eleventy — it outputs the same static HTML, so nothing here would be wasted.
 
 ## Editing
 
-- **Text** â€” edit the HTML directly. Slovak characters are stored as real UTF-8
-  (`medovnÃ­k`, not `medovn&iacute;`), so you can just type them.
-- **Colours and fonts** â€” `:root` at the top of `assets/css/site.css`. Change
+- **Text** — edit the HTML directly. Slovak characters are stored as real UTF-8
+  (`medovník`, not `medovn&iacute;`), so you can just type them.
+- **Colours and fonts** — `:root` at the top of `assets/css/site.css`. Change
   `--blue` / `--red` and the whole site follows, ornaments included.
-- **Prices** â€” each product page has its tiles and a `.menu-list` block.
-- **A new page** â€” copy the closest existing page, then update `<title>`,
+- **Prices** — each product page has its tiles and a `.menu-list` block.
+- **A new page** — copy the closest existing page, then update `<title>`,
   `<meta name="description">`, `<link rel="canonical">`, the `og:` tags, the JSON-LD
   breadcrumb, the `<h1>`, and add the URL to `sitemap.xml`.
 
@@ -70,7 +69,7 @@ The folk medallions are deliberate placeholders. To swap one for a photograph, r
 <!-- after -->
 <div class="tile-art">
   <img src="/assets/img/medovnik.webp" width="800" height="680"
-       alt="Sliced medovnÃ­k showing eight honey layers" loading="lazy" decoding="async">
+       alt="Sliced medovník showing eight honey layers" loading="lazy" decoding="async">
 </div>
 ```
 
@@ -87,29 +86,28 @@ for f in *.jpg; do cwebp -q 82 -resize 1400 0 "$f" -o "${f%.jpg}.webp"; done
 
 ## Deploying
 
-Cloudflare Pages or Netlify â€” both free, both give a global CDN and automatic HTTPS.
+Cloudflare Pages or Netlify — both free, both give a global CDN and automatic HTTPS.
 Connect this git repo, set the build command to nothing and the output directory to `/`.
 `_headers` is already written for both (security headers plus long-lived asset caching).
 
 > **DNS warning.** When you point `katkaskitchen.com.au` at the host, change only the
 > `A` / `AAAA` / `CNAME` records. **Leave the `MX` records alone** or
-> `info@katkaskitchen.com.au` will stop receiving mail â€” and you will not notice until
+> `info@katkaskitchen.com.au` will stop receiving mail — and you will not notice until
 > somebody tells you their order enquiry bounced.
 
 ## Before launch
 
-See `CONTENT-TODO.md` â€” every placeholder value is listed there with its location.
+See `CONTENT-TODO.md` — every placeholder value is listed there with its location.
 The enquiry form in particular does nothing until you wire up an endpoint.
 
 ## After launch
 
-1. **Google Business Profile** â€” set up as a *service-area business* so the home address
+1. **Google Business Profile** — set up as a *service-area business* so the home address
    stays private. This drives more local enquiries than the website itself, and
    verification takes days to weeks, so start it early.
-2. **Google Search Console** â€” verify the domain, submit `sitemap.xml`.
-3. **Bing Webmaster Tools** â€” same, takes two minutes.
-4. **Analytics** â€” Cloudflare Web Analytics is free, needs no cookie banner and does not
+2. **Google Search Console** — verify the domain, submit `sitemap.xml`.
+3. **Bing Webmaster Tools** — same, takes two minutes.
+4. **Analytics** — Cloudflare Web Analytics is free, needs no cookie banner and does not
    slow the site down.
-5. **Reviews** â€” ask every customer. Ten genuine Google reviews will move the needle
+5. **Reviews** — ask every customer. Ten genuine Google reviews will move the needle
    further than any change to this code.
-
