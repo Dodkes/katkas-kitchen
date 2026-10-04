@@ -4,8 +4,6 @@
    No build step, no dependencies. Edit freely.
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Good+Vibes&display=swap');
-
 /* --- tokens --------------------------------------------------------------- */
 :root {
   --blue: #3B4FDE;          /* cobalt from the logo */
@@ -23,7 +21,7 @@
 
   --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
   --font-body: "Jost", ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, sans-serif;
-  --font-script: "Good Vibes", "Parisienne", "Snell Roundhand", cursive;
+  --font-script: "Parisienne", "Snell Roundhand", cursive;
 
   --shadow-s: 0 1px 2px rgba(27, 30, 59, .05), 0 4px 14px rgba(27, 30, 59, .05);
   --shadow-m: 0 10px 30px rgba(28, 36, 85, .10);
@@ -158,7 +156,7 @@ p { text-wrap: pretty; }
 .brand { display: flex; align-items: center; gap: .6rem; text-decoration: none; margin-right: auto; }
 .brand img { display: none; }
 .brand-name {
-  font-family: "Good Vibes", var(--font-script), cursive;
+  font-family: "Great Vibes", var(--font-script), cursive;
   font-size: clamp(1.8rem, 1.7rem + .7vw, 2.2rem);
   color: var(--ink); line-height: 1.05; white-space: nowrap;
 }
