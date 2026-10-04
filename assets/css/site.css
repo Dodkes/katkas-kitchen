@@ -156,8 +156,8 @@ p { text-wrap: pretty; }
 .brand { display: flex; align-items: center; gap: .6rem; text-decoration: none; margin-right: auto; }
 .brand img { display: none; }
 .brand-name {
-  font-family: var(--font-script);
-  font-size: clamp(1.45rem, 1.3rem + .7vw, 1.9rem);
+  font-family: "Great Vibes", var(--font-script), cursive;
+  font-size: clamp(1.8rem, 1.7rem + .7vw, 2.2rem);
   color: var(--ink); line-height: 1.05; white-space: nowrap;
 }
 .brand-sub {
