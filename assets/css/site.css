@@ -154,7 +154,7 @@ p { text-wrap: pretty; }
 .site-header .wrap { display: flex; align-items: center; gap: 1rem; padding-block: .7rem; }
 
 .brand { display: flex; align-items: center; gap: .6rem; text-decoration: none; margin-right: auto; }
-.brand img { width: 42px; height: 42px; flex: none; }
+.brand img { display: none; }
 .brand-name {
   font-family: var(--font-script);
   font-size: clamp(1.45rem, 1.3rem + .7vw, 1.9rem);
