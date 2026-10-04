@@ -1,12 +1,12 @@
 # Image assets
 
-All the artwork is SVG built from the folk motifs in the brand logo, so it scales to any
-size, stays sharp on retina screens, and recolours from the CSS variables in
-`assets/css/site.css`.
+Most of the artwork is SVG built from the folk motifs in the brand logo, so it scales to
+any size, stays sharp on retina screens, and recolours from the CSS variables in
+`assets/css/site.css`. The full brand logo is supplied as a PNG.
 
 | File | Used for |
 |---|---|
-| `logo-mark.svg` | The folk heart wreath. Hero panel, About page, 404 page. |
+| `logo-mark.png` | The folk heart wreath. Hero panel, About page, 404 page. |
 | `logo-badge.svg` | Compact square mark. Header and footer — stays legible at 42px, which the full wreath does not. |
 | `favicon.svg` | Browser tab icon. |
 | `apple-touch-icon.png` | 180×180, iOS home screen. |
@@ -21,17 +21,12 @@ size, stays sharp on retina screens, and recolours from the CSS variables in
 
 ## Swapping in the real logo
 
-The wreath here is a reconstruction, drawn to match the uploaded logo so the site could be
-built before the original file was to hand. To use the real artwork instead, save it as
-`logo.png` (or `.svg`) in this folder and point the hero at it:
+The full logo image includes the brand lettering, so the hero does not overlay separate
+text on top of it. The compact SVG badge is still used in the header and footer.
 
 ```
-index.html  →  <img class="hero-wreath" src="/assets/img/logo-mark.svg" …>
+index.html  →  <img class="hero-wreath" src="/assets/img/logo-mark.png" …>
 ```
-
-Note that the hero overlays the words "Katka's Kitchen" as live HTML text on top of the
-wreath (`.hero-wordmark` — better for SEO and accessibility than text baked into an
-image). If the real logo already contains the lettering, delete that `<p>`.
 
 ## Regenerating the raster files
 
