@@ -4,6 +4,8 @@
    No build step, no dependencies. Edit freely.
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Good+Vibes&display=swap');
+
 /* --- tokens --------------------------------------------------------------- */
 :root {
   --blue: #3B4FDE;          /* cobalt from the logo */
@@ -21,7 +23,7 @@
 
   --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
   --font-body: "Jost", ui-sans-serif, -apple-system, "Segoe UI", Roboto, Helvetica, sans-serif;
-  --font-script: "Parisienne", "Snell Roundhand", cursive;
+  --font-script: "Good Vibes", "Parisienne", "Snell Roundhand", cursive;
 
   --shadow-s: 0 1px 2px rgba(27, 30, 59, .05), 0 4px 14px rgba(27, 30, 59, .05);
   --shadow-m: 0 10px 30px rgba(28, 36, 85, .10);
@@ -156,7 +158,7 @@ p { text-wrap: pretty; }
 .brand { display: flex; align-items: center; gap: .6rem; text-decoration: none; margin-right: auto; }
 .brand img { display: none; }
 .brand-name {
-  font-family: "Great Vibes", var(--font-script), cursive;
+  font-family: "Good Vibes", var(--font-script), cursive;
   font-size: clamp(1.8rem, 1.7rem + .7vw, 2.2rem);
   color: var(--ink); line-height: 1.05; white-space: nowrap;
 }
@@ -469,8 +471,8 @@ p { text-wrap: pretty; }
 @media (max-width: 34rem) { .footer-grid { grid-template-columns: 1fr; } }
 .footer-grid ul { list-style: none; padding: 0; display: grid; gap: .55rem; }
 .footer-brand { display: flex; align-items: center; gap: .7rem; margin-bottom: 1rem; text-decoration: none; }
-.footer-brand img { width: 46px; }
-.footer-brand .brand-name { color: var(--cream); }
+.footer-brand img { width: 52px; }
+.footer-brand .brand-name { color: var(--cream); font-family: var(--font-script); }
 .footer-bottom {
   margin-top: clamp(2.2rem, 5vw, 3.2rem); padding-top: 1.4rem;
   border-top: 1px solid rgba(251, 247, 240, .16);
