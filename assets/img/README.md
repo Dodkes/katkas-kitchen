@@ -2,11 +2,11 @@
 
 Most of the artwork is SVG built from the folk motifs in the brand logo, so it scales to
 any size, stays sharp on retina screens, and recolours from the CSS variables in
-`assets/css/site.css`. The full brand logo is supplied as SVG with a transparent background.
+`assets/css/site.css`. The full brand logo is supplied as a transparent PNG.
 
 | File | Used for |
 |---|---|
-| `logo-mark.svg` | The folk heart wreath. Hero panel, About page, 404 page. |
+| `logo-mark.png` | The transparent full logo. Homepage hero, About page, 404 page, and structured data. |
 | `logo-motif-bird.png` | Isolated rooster detail cropped from the full logo, used for the homepage feature icon. |
 | `logo-motif-flower.png` | Isolated blue flower detail cropped from the full logo, used for the homepage feature icon. |
 | `logo-badge.svg` | Compact folk badge mark. Header and footer — transparent background and lightweight, so it reads cleanly at 42px. |
@@ -27,7 +27,7 @@ The full logo image includes the brand lettering, so the hero does not overlay s
 text on top of it. The compact SVG badge is still used in the header and footer.
 
 ```
-index.html  →  <img class="hero-wreath" src="/assets/img/logo-mark.svg" …>
+index.html  →  <img class="hero-wreath" src="/assets/img/logo-mark.png" …>
 ```
 
 ## Regenerating the raster files
