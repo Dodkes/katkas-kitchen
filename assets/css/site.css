@@ -284,7 +284,7 @@ p { text-wrap: pretty; }
 .card .card-link::after { content: " \2192"; transition: margin .18s ease; }
 .card .card-link:hover::after { margin-left: .25rem; }
 
-/* --- product tile (folk medallion stands in for a photo) ------------------ */
+/* --- product tile --------------------------------------------------------- */
 .tile {
   display: flex; flex-direction: column; background: #fff;
   border: 1px solid var(--line); border-radius: var(--arch);
@@ -298,6 +298,9 @@ p { text-wrap: pretty; }
 }
 .tile-art img { width: min(72%, 190px); transition: transform .5s cubic-bezier(.2, .8, .2, 1); }
 .tile:hover .tile-art img { transform: rotate(7deg) scale(1.05); }
+.tile-art--photo { aspect-ratio: auto; padding: 0; }
+.tile-art--photo img { width: 100%; }
+.tile:hover .tile-art--photo img { transform: none; }
 .tile-art--a { background: var(--sand); }
 .tile-art--b { background: #EFF0FE; }
 .tile-art--c { background: #FBEEEC; }
