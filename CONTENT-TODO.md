@@ -41,13 +41,10 @@ tells Google that another person's Instagram account is Katka's business.
 
 ## 2. Legal and compliance
 
-### Fake testimonials — remove or replace
-`index.html`, the "What people say" section. Three invented quotes, each marked
-`Placeholder — replace`, inside a `.draft-note` warning box.
+### Fake testimonials — removed
+The invented testimonial section has been removed from `index.html`.
 
-Fabricated testimonials breach the Australian Consumer Law and the ACCC actively
-prosecutes it. Either paste in real Google reviews (with the reviewer's first name) or
-delete the whole `<section>`. Do not leave invented quotes on a live site.
+Only add customer reviews if they are genuine and approved for use.
 
 No `AggregateRating` structured data was added anywhere, on purpose — marking up review
 scores that do not exist is both a Google penalty and a false claim.
@@ -128,7 +125,7 @@ for the markup and the WebP conversion command.
 - [ ] Form endpoint wired up and tested to a real inbox
 - [ ] Real ABN
 - [ ] Social links correct, or removed along with `sameAs`
-- [ ] Invented testimonials removed or replaced with real reviews
+- [x] Invented testimonials removed
 - [ ] Prices, deposit and notice periods confirmed
 - [ ] Opening hours and postcode confirmed
 - [ ] About page rewritten by Katka
