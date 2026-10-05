@@ -9,7 +9,7 @@ any size, stays sharp on retina screens, and recolours from the CSS variables in
 | `logo-mark.png` | The transparent full logo. Homepage hero, About page, 404 page, and structured data. |
 | `logo-motif-bird.png` | Isolated rooster detail cropped from the full logo, used for the homepage feature icon. |
 | `logo-motif-flower.png` | Isolated blue flower detail cropped from the full logo, used for the homepage feature icon. |
-| `logo-badge.svg` | Compact folk badge mark. Header and footer — transparent background and lightweight, so it reads cleanly at 42px. |
+| `logo-badge.svg` | Standalone red heart mark. Used in the header, footer and About page. |
 | `favicon.svg` | Browser tab icon. |
 | `apple-touch-icon.png` | 180×180, iOS home screen. |
 | `icon-192.png`, `icon-512.png` | Referenced by `site.webmanifest`. |
