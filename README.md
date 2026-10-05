@@ -23,7 +23,7 @@ python3 -m http.server 8000
 ```
 index.html                  Home
 slovak-desserts/            Medovník, kremeš, punch slices…
-pastries-and-bread/         Buchty, koláče, šišky, bread
+pastries-and-bread/         Buchty, koláče, šišky
 gallery/                    Photo grid (placeholders for now)
 about/                      Katka's story
 faq/                        Ordering, allergens, prices

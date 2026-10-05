@@ -15,6 +15,8 @@ any size, stays sharp on retina screens, and recolours from the CSS variables in
 | `icon-192.png`, `icon-512.png` | Referenced by `site.webmanifest`. |
 | `og-image.png` | 1200×630 social sharing card (Facebook, WhatsApp, LinkedIn). |
 | `og-image.svg` | Editable source for the card above. |
+| `apple-cake.jpg` | Photo used in the jablkový koláč product tile on the Pastries page. |
+| `sisky.jpeg` | Photo used in the šišky product tile on the Pastries page. |
 | `pattern-folk.svg` | Tiling background, blue at 4% opacity. Light sections. |
 | `pattern-folk-light.svg` | Same tile in cream, for the footer and CTA band. |
 | `divider.svg` | The `.folk-rule` section divider. |

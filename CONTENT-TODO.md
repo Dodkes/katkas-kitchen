@@ -76,10 +76,10 @@ Every figure on the site is a guess at Gold Coast market rates. Locations:
 | Page | Where |
 |---|---|
 | `slovak-desserts/` | 6 product tiles + "Also on the tray" list |
-| `pastries-and-bread/` | 6 product tiles + "Bread" list |
+| `pastries-and-bread/` | 4 pastry product tiles |
 
 Also invented: the **notice periods** (two to three days for dessert boxes, Thursday
-for weekend bread). These appear on product pages and the contact page — make them
+for weekend yeast pastries). These appear on product pages and the contact page — make them
 match how Katka actually wants to work, then keep them consistent.
 
 ---
