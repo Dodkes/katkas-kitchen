@@ -163,6 +163,7 @@ p { text-wrap: pretty; }
 .brand-sub {
   display: block; font-family: var(--font-body); font-size: .6rem;
   letter-spacing: .22em; text-transform: uppercase; color: var(--blue); margin-top: -.15rem;
+  text-align: center;
 }
 
 .nav { display: flex; align-items: center; gap: clamp(.5rem, 1.4vw, 1.3rem); }
