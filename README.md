@@ -22,7 +22,6 @@ python3 -m http.server 8000
 
 ```
 index.html                  Home
-celebration-cakes/          Birthday & celebration cakes
 slovak-desserts/            Medovník, kremeš, punch slices…
 pastries-and-bread/         Buchty, koláče, šišky, bread
 gallery/                    Photo grid (placeholders for now)
@@ -40,9 +39,9 @@ assets/img/og-image.png     1200×630 social sharing card.
 robots.txt  sitemap.xml  site.webmanifest  _headers
 ```
 
-Each page is standalone, so the header and footer markup is repeated in all eleven files.
+Each page is standalone, so the header and footer markup is repeated in all nine HTML files.
 That is the trade-off for having no build step: a change to the navigation means editing
-eleven files (find-and-replace handles it). If the site grows past a dozen pages, move to
+nine files (find-and-replace handles it). If the site grows past a dozen pages, move to
 Eleventy — it outputs the same static HTML, so nothing here would be wasted.
 
 ## Editing

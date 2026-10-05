@@ -75,15 +75,12 @@ Every figure on the site is a guess at Gold Coast market rates. Locations:
 
 | Page | Where |
 |---|---|
-| `index.html` | "A few favourites" list |
-| `celebration-cakes/` | 6 product tiles + "Sizes and serves" list |
 | `slovak-desserts/` | 6 product tiles + "Also on the tray" list |
 | `pastries-and-bread/` | 6 product tiles + "Bread" list |
-| `faq/` | "How much does a cake cost?" |
 
-Also invented: the **30% deposit** and every **notice period** (two weeks for cakes,
-Thursday for weekend bread). These appear on product pages, the FAQ and the contact
-page — make them match how Katka actually wants to work, then keep them consistent.
+Also invented: the **notice periods** (two to three days for dessert boxes, Thursday
+for weekend bread). These appear on product pages and the contact page — make them
+match how Katka actually wants to work, then keep them consistent.
 
 ---
 
@@ -118,7 +115,7 @@ photos. They are designed to look intentional rather than broken, so the site ca
 without them — but **good photographs of the actual baking will do more for enquiries
 than anything else on this list.**
 
-Ten to fifteen shots is enough: three or four cakes, a sliced medovník showing the layers,
+Ten to fifteen shots is enough: a sliced medovník showing the layers,
 a tray of buchty, a sweet table, and one of Katka in her kitchen for the About page.
 Daylight near a window, no flash. See the "Adding real photos" section of `README.md`
 for the markup and the WebP conversion command.
