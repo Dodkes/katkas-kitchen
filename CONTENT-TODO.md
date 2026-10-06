@@ -9,20 +9,7 @@ Sorted roughly by how much damage it does if missed.
 
 ### Phone number — resolved
 The fictional placeholder has been replaced with Katka's number (`0404 335 142`) in the
-site pages, phone links, and the error message in `assets/js/site.js`.
-
-### Enquiry form does nothing
-`contact/index.html` — the form posts to `https://formspree.io/f/REPLACE_ME`. While
-`REPLACE_ME` is present, `assets/js/site.js` deliberately stays out of the way, so the
-form will not work at all.
-
-Pick one:
-- **Formspree** — create a form, paste its endpoint into `action`. Free for ~50/month.
-- **Cloudflare Worker** — if you are already on Cloudflare Pages, a small Worker posting
-  to an email API keeps everything on your own domain.
-
-Test it end to end and confirm a real email lands in `info@katkaskitchen.com.au`
-before you announce the site.
+site pages and phone links.
 
 ### ABN
 `00 000 000 000` — footer of all 11 pages, plus `privacy/index.html`.

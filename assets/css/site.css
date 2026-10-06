@@ -393,26 +393,6 @@ img[src="/assets/img/logo-mark.png"] {
 .faq .faq-a { padding-bottom: 1.3rem; }
 .faq .faq-a > * + * { margin-top: .8rem; }
 
-/* --- form ----------------------------------------------------------------- */
-.form { display: grid; gap: 1.1rem; }
-.field { display: grid; gap: .35rem; }
-.field label { font-size: .9rem; font-weight: 500; color: var(--ink); }
-.field .hint { font-size: .82rem; color: var(--muted); }
-.field input, .field select, .field textarea {
-  width: 100%; padding: .78rem .95rem; border: 1px solid var(--line-strong);
-  border-radius: 11px; background: #fff; transition: border-color .18s ease, box-shadow .18s ease;
-}
-.field input:focus, .field select:focus, .field textarea:focus {
-  outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px rgba(59, 79, 222, .16);
-}
-.field textarea { min-height: 8rem; resize: vertical; }
-.field--row { display: grid; gap: 1.1rem; grid-template-columns: 1fr 1fr; }
-@media (max-width: 40rem) { .field--row { grid-template-columns: 1fr; } }
-.form .hp { position: absolute; left: -9999px; }
-.form-status { font-size: .95rem; padding: .9rem 1.1rem; border-radius: 11px; display: none; }
-.form-status[data-state="ok"] { display: block; background: #ECF7EE; color: #1F6B32; border: 1px solid #BFE3C7; }
-.form-status[data-state="err"] { display: block; background: #FCEDEC; color: var(--red-deep); border: 1px solid #F3C9C6; }
-
 /* --- contact detail cards ------------------------------------------------- */
 .detail-list { list-style: none; padding: 0; display: grid; gap: 1.3rem; }
 .detail-list li { display: grid; gap: .2rem; }

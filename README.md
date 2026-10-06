@@ -27,12 +27,12 @@ pastries-and-bread/         Buchty, koláče, šišky
 gallery/                    Photo grid (placeholders for now)
 about/                      Katka's story
 faq/                        Ordering, allergens, prices
-contact/                    Enquiry form + details
+contact/                    Contact details and ordering information
 privacy/                    Privacy policy
 404.html                    Not-found page
 
 assets/css/site.css         All styling. Design tokens are at the top in `:root`.
-assets/js/site.js           Mobile menu + enquiry form submit. ~60 lines.
+assets/js/site.js           Mobile navigation + footer year.
 assets/img/*.svg            Folk ornaments, logo, patterns, product medallions.
 assets/img/og-image.png     1200×630 social sharing card.
 
@@ -97,7 +97,6 @@ Connect this git repo, set the build command to nothing and the output directory
 ## Before launch
 
 See `CONTENT-TODO.md` — every placeholder value is listed there with its location.
-The enquiry form in particular does nothing until you wire up an endpoint.
 
 ## After launch
 
