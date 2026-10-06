@@ -16,13 +16,12 @@ site pages and phone links.
 A `.com.au` domain requires an Australian presence, so Katka's real ABN exists — use it.
 
 ### Social media links
-`https://www.instagram.com/katkaskitchen.au` and
-`https://www.facebook.com/katkaskitchen.au` — footer of all 11 pages, the contact page,
-and `sameAs` in the `LocalBusiness` JSON-LD.
+`https://www.facebook.com/katkaskitchen.au` — footer of all pages and `sameAs` in the
+business JSON-LD. Instagram links have been removed from the website.
 
-**These handles are guesses and may belong to someone else.** Either point them at the
-real accounts or delete the links and the `sameAs` entries entirely. A wrong `sameAs`
-tells Google that another person's Instagram account is Katka's business.
+**The Facebook handle is unconfirmed and may belong to someone else.** Replace it with
+the real account or remove its links and `sameAs` entries. A wrong `sameAs` tells Google
+that another person's account is Katka's business.
 
 ---
 
