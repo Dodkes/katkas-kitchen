@@ -254,6 +254,10 @@ p { text-wrap: pretty; }
   display: grid; place-items: center; padding: clamp(1.2rem, 3vw, 2rem);
   position: relative;
 }
+img[src="/assets/img/logo-mark.png"] {
+  filter: brightness(1.08) saturate(1.12);
+  transition: filter .2s ease;
+}
 .hero-wreath { width: 100%; }
 .hero-wordmark {
   position: absolute; left: 50%; top: 50%; transform: translate(-50%, -64%);
