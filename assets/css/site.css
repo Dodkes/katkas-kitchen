@@ -113,6 +113,8 @@ p { text-wrap: pretty; }
   background: url("../img/divider.svg") center/contain no-repeat;
 }
 .folk-rule--tight { margin-block: 1.1rem; }
+.folk-rule--faq { position: relative; background-image: url("../img/divider-faq.svg"); }
+.folk-rule--faq img { position: absolute; top: 50%; left: 50%; width: 52px; transform: translate(-50%, -50%); filter: brightness(1.16) saturate(1.08); }
 
 /* --- buttons -------------------------------------------------------------- */
 .btn {
