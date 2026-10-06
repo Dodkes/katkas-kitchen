@@ -70,8 +70,6 @@ match how Katka actually wants to work, then keep them consistent.
 
 ## 4. Business details to confirm
 
-- **Opening hours** — invented as Tue–Fri 9–5, Sat 8–1, closed Sun/Mon. In the footer of
-  every page, `contact/index.html`, and `openingHoursSpecification` in the JSON-LD.
 - **Postcode `4217`** (Surfers Paradise) — in the `PostalAddress` JSON-LD on `index.html`
   and `contact/index.html`. Set the real one. No street address is published anywhere,
   which is the right call for a home kitchen; Google Business Profile handles the
@@ -114,7 +112,7 @@ for the markup and the WebP conversion command.
 - [ ] Social links correct, or removed along with `sameAs`
 - [x] Invented testimonials removed
 - [ ] Prices, deposit and notice periods confirmed
-- [ ] Opening hours and postcode confirmed
+- [ ] Postcode confirmed
 - [ ] About page rewritten by Katka
 - [ ] Privacy policy reviewed and dated
 - [ ] Delete every `.draft-note` box (`grep -rn 'draft-note' --include='*.html' .`)
