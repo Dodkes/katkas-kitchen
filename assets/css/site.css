@@ -344,6 +344,10 @@ img[src="/assets/img/logo-mark.png"] {
   display: flex; align-items: baseline; gap: .6rem;
   padding: .8rem 0; border-bottom: 1px dashed var(--line-strong);
 }
+.menu-list--descriptions li { display: block; }
+.menu-list--descriptions .m-description {
+  display: block; margin-top: .25rem; color: var(--muted); font-size: .92rem; line-height: 1.5;
+}
 .menu-list .m-name { font-weight: 500; color: var(--ink); }
 .menu-list .m-native { font-family: var(--font-script); color: var(--red-deep); font-size: 1.05rem; }
 .menu-list .m-dots { flex: 1; border-bottom: 1px dotted var(--line-strong); translate: 0 -.25rem; }
