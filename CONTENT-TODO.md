@@ -11,9 +11,8 @@ Sorted roughly by how much damage it does if missed.
 The fictional placeholder has been replaced with Katka's number (`0404 335 142`) in the
 site pages and phone links.
 
-### ABN
-`00 000 000 000` — footer of all 11 pages, plus `privacy/index.html`.
-A `.com.au` domain requires an Australian presence, so Katka's real ABN exists — use it.
+### ABN — resolved
+The real ABN (`26 253 605 871`) is now in the footer of every page and on the privacy page.
 
 ### Social media links
 `https://www.facebook.com/katkaskitchen.au` — footer of all pages and `sameAs` in the
@@ -107,7 +106,7 @@ for the markup and the WebP conversion command.
 
 - [ ] Real phone number everywhere
 - [ ] Form endpoint wired up and tested to a real inbox
-- [ ] Real ABN
+- [x] Real ABN
 - [ ] Social links correct, or removed along with `sameAs`
 - [x] Invented testimonials removed
 - [ ] Prices, deposit and notice periods confirmed
