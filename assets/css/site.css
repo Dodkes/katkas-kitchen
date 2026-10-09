@@ -11,8 +11,8 @@
   --blue-deep: #1C2455;     /* footer / deep grounds */
   --red: #DB2B2B;           /* folk red — decorative + large text only */
   --red-deep: #B81E1E;      /* accessible red for small text */
-  --cream: #FBF7F0;         /* warm paper */
-  --sand: #F3EBDD;          /* alternating sections */
+  --cream: #FFFCF5;         /* brighter warm paper */
+  --sand: #F8F0E2;          /* sunny alternating sections */
   --sand-deep: #E7DAC4;
   --ink: #1B1E3B;
   --muted: #4A4E6B;
@@ -220,8 +220,10 @@ p { text-wrap: pretty; }
 /* --- hero ----------------------------------------------------------------- */
 .hero {
   position: relative; overflow: hidden;
-  background: var(--cream) url("../img/pattern-folk.svg") repeat;
-  background-size: 300px 300px;
+  background:
+    radial-gradient(ellipse at 76% 42%, rgba(255, 218, 121, .34), transparent 48%),
+    var(--cream) url("../img/pattern-folk.svg") repeat;
+  background-size: auto, 300px 300px;
   padding-block: clamp(2.5rem, 6vw, 5rem) clamp(3rem, 7vw, 5.5rem);
 }
 .hero::after {
