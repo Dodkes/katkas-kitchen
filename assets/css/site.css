@@ -349,7 +349,7 @@ img[src="/assets/img/logo-mark.png"] {
   display: block; margin-top: .25rem; color: var(--muted); font-size: .92rem; line-height: 1.5;
 }
 .menu-list .m-name { font-weight: 500; color: var(--ink); }
-.menu-list .m-native { font-family: var(--font-script); color: var(--red-deep); font-size: 1.05rem; }
+.menu-list .m-native { font-family: var(--font-script); color: var(--red-deep); font-size: 1.4rem; }
 .menu-list .m-dots { flex: 1; border-bottom: 1px dotted var(--line-strong); translate: 0 -.25rem; }
 .menu-list .m-price { font-variant-numeric: tabular-nums; color: var(--blue-dark); font-weight: 500; }
 
