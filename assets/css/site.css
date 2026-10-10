@@ -376,6 +376,8 @@ img[src="/assets/img/logo-mark.png"] {
 .cta-band h2, .cta-band .eyebrow { color: var(--cream); }
 .cta-band .eyebrow { color: #F6B8B8; }
 .cta-band p { color: rgba(251, 247, 240, .82); }
+.cta-band p a { color: var(--cream); }
+.cta-band p a:hover { color: #fff; }
 .cta-band .folk-rule { filter: brightness(0) invert(1); opacity: .5; }
 
 /* --- FAQ ------------------------------------------------------------------ */
