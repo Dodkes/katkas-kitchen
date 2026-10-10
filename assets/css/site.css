@@ -194,9 +194,11 @@ p { text-wrap: pretty; }
 .nav-toggle[aria-expanded="true"] .icon-close { display: block; }
 
 @media (max-width: 62rem) {
+  .site-header { backdrop-filter: none; }
   .nav-toggle { display: grid; }
   .nav {
     position: fixed; inset: 0 0 0 auto; width: min(21rem, 88vw);
+    z-index: 56;
     flex-direction: column; align-items: stretch; justify-content: flex-start;
     gap: 0; padding: 5.5rem 1.8rem 2rem;
     background: var(--cream) url("../img/pattern-folk.svg") repeat;
@@ -208,7 +210,8 @@ p { text-wrap: pretty; }
   .nav[data-open="true"] { transform: translateX(0); visibility: visible; }
   .nav a { font-size: 1.1rem; padding: .85rem 0; border-bottom: 1px solid var(--line); }
   .nav a::after { display: none; }
-  .nav .btn { margin: 1.2rem 0 0; padding: .8rem 1.4rem; font-size: 1rem; }
+  .nav .btn { margin: 1.2rem 0 0; padding: .8rem 1.4rem; font-size: 1rem; color: #fff; }
+  .nav .btn:hover { color: #fff; }
   .nav-backdrop {
     display: block; position: fixed; inset: 0; background: rgba(28, 36, 85, .45);
     opacity: 0; pointer-events: none; transition: opacity .28s ease; z-index: 55;
