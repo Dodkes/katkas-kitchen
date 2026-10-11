@@ -381,6 +381,7 @@ img[src="/assets/img/logo-mark.png"] {
 .cta-band p { color: rgba(251, 247, 240, .82); }
 .cta-band p a { color: var(--cream); }
 .cta-band p a:hover { color: #fff; }
+.cta-band p a[href^="tel:"] { white-space: nowrap; }
 .cta-band .folk-rule { filter: brightness(0) invert(1); opacity: .5; }
 
 /* --- FAQ ------------------------------------------------------------------ */
