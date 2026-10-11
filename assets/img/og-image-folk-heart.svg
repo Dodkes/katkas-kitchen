@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#FFFCF5"/>
+  <rect x="26" y="26" width="1148" height="578" fill="none" stroke="#3B4FDE" stroke-width="4"/>
+  <rect x="40" y="40" width="1120" height="550" fill="none" stroke="#3B4FDE" stroke-width="1.5" stroke-dasharray="7 7" opacity=".55"/>
+  <image href="logo-mark.png" x="315" y="25" width="570" height="570" preserveAspectRatio="xMidYMid meet"/>
+</svg>

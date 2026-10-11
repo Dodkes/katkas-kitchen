@@ -34,7 +34,7 @@ privacy/                    Privacy policy
 assets/css/site.css         All styling. Design tokens are at the top in `:root`.
 assets/js/site.js           Mobile navigation + footer year.
 assets/img/*.svg            Folk ornaments, logo, patterns, product medallions.
-assets/img/og-image.png     1200×630 social sharing card.
+assets/img/og-image-folk-heart.png  1200×630 social card with the current folk-heart logo.
 
 robots.txt  sitemap.xml  site.webmanifest  _headers
 ```

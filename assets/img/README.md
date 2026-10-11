@@ -13,8 +13,8 @@ any size, stays sharp on retina screens, and recolours from the CSS variables in
 | `favicon.svg` | Browser tab icon. |
 | `apple-touch-icon.png` | 180×180, iOS home screen. |
 | `icon-192.png`, `icon-512.png` | Referenced by `site.webmanifest`. |
-| `og-image.png` | 1200×630 social sharing card (Facebook, WhatsApp, LinkedIn). |
-| `og-image.svg` | Editable source for the card above. |
+| `og-image-folk-heart.png` | 1200×630 social sharing card featuring the current full folk-heart logo. |
+| `og-image-folk-heart.svg` | Editable source for the card above; it uses `logo-mark.png`. |
 | `apple-cake.jpg` | Photo used in the jablkový koláč product tile on the Pastries page. |
 | `sisky.jpeg` | Photo used in the šišky product tile on the Pastries page. |
 | `pattern-folk.svg` | Tiling background, blue at 4% opacity. Light sections. |
@@ -34,11 +34,11 @@ index.html  →  <img class="hero-wreath" src="/assets/img/logo-mark.png" …>
 
 ## Regenerating the raster files
 
-`og-image.png` and the icons are rendered from SVG with `rsvg-convert`
+`og-image-folk-heart.png` and the icons are rendered from SVG with `rsvg-convert`
 (`brew install librsvg`):
 
 ```bash
-rsvg-convert -w 1200 -h 630 og-image.svg     -o og-image.png
+rsvg-convert -w 1200 -h 630 og-image-folk-heart.svg -o og-image-folk-heart.png
 rsvg-convert -w 180  -h 180 logo-badge.svg   -o apple-touch-icon.png
 rsvg-convert -w 192  -h 192 logo-badge.svg   -o icon-192.png
 rsvg-convert -w 512  -h 512 logo-badge.svg   -o icon-512.png
