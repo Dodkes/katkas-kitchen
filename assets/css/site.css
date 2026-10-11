@@ -253,6 +253,18 @@ p { text-wrap: pretty; }
   border-radius: 999px; padding: .34rem .9rem;
 }
 
+/* --- market announcement -------------------------------------------------- */
+.market-announcement {
+  padding-block: clamp(1.6rem, 3vw, 2.4rem);
+  background: var(--sand);
+  border-bottom: 1px solid var(--line);
+  text-align: center;
+}
+.market-announcement .wrap { max-width: 58rem; }
+.market-announcement .eyebrow { margin-bottom: .4rem; }
+.market-announcement h2 { font-size: clamp(1.5rem, 1.2rem + 1.4vw, 2rem); }
+.market-announcement p:last-child { margin-top: .55rem; }
+
 .hero-art { position: relative; display: grid; place-items: center; }
 .hero-art .arch {
   width: min(28rem, 100%); aspect-ratio: 1 / 1.08;
