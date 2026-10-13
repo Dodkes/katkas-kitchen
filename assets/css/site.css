@@ -369,6 +369,24 @@ img[src="/assets/img/logo-mark.png"] {
 .menu-list .m-native { font-family: var(--font-script); color: var(--red-deep); font-size: 1.4rem; }
 .menu-list .m-dots { flex: 1; border-bottom: 1px dotted var(--line-strong); translate: 0 -.25rem; }
 .menu-list .m-price { font-variant-numeric: tabular-nums; color: var(--blue-dark); font-weight: 500; }
+.m-price-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  margin-top: .45rem;
+  padding: .2rem .75rem;
+  background: #fff;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  font-size: .88rem;
+  font-weight: 500;
+  color: var(--blue-dark);
+  box-shadow: 0 1px 3px rgba(27, 30, 59, .06);
+}
+.m-price-tag strong {
+  color: var(--red-deep);
+  font-weight: 600;
+}
 
 /* --- quotes --------------------------------------------------------------- */
 .quote {
