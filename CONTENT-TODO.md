@@ -96,7 +96,7 @@ without them — but **good photographs of the actual baking will do more for en
 than anything else on this list.**
 
 Ten to fifteen shots is enough: a sliced medovník showing the layers,
-a tray of buchty, a sweet table, and one of Katka in her kitchen for the About page.
+a tray of pastries, a sweet table, and one of Katka in her kitchen for the About page.
 Daylight near a window, no flash. See the "Adding real photos" section of `README.md`
 for the markup and the WebP conversion command.
 
