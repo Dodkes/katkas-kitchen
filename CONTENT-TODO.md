@@ -8,7 +8,7 @@ Sorted roughly by how much damage it does if missed.
 ## 1. Blockers — the site is broken or misleading without these
 
 ### Phone number — resolved
-The fictional placeholder has been replaced with Katka's number (`0404 335 142`) in the
+The fictional placeholder has been replaced with Katka's number (`0420 888 089`) in the
 site pages and phone links.
 
 ### ABN — resolved

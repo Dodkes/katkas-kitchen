@@ -33,7 +33,7 @@ privacy/                    Privacy policy
 
 assets/css/site.css         All styling. Design tokens are at the top in `:root`.
 assets/js/site.js           Mobile navigation + footer year.
-assets/img/*.svg            Folk ornaments, logo, patterns, product medallions.
+assets/img/*.svg            Folk ornaments, logo, patterns.
 assets/img/og-image-folk-heart.png  1200×630 social card with the current folk-heart logo.
 
 robots.txt  sitemap.xml  site.webmanifest  _headers
@@ -57,15 +57,10 @@ Eleventy — it outputs the same static HTML, so nothing here would be wasted.
 
 ## Adding real photos
 
-The folk medallions are deliberate placeholders. To swap one for a photograph, replace the
-`<img>` inside `.tile-art` and drop the tint class:
+The product pages are plain text lists at the moment, so there is nothing to swap out — a
+photograph goes into a `.tile-art` block, which the CSS still supports:
 
 ```html
-<!-- before -->
-<div class="tile-art tile-art--a">
-  <img src="/assets/img/medallion-1.svg" width="190" height="190" alt="" loading="lazy">
-</div>
-<!-- after -->
 <div class="tile-art">
   <img src="/assets/img/medovnik.webp" width="800" height="680"
        alt="Sliced medovník showing eight honey layers" loading="lazy" decoding="async">

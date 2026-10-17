@@ -15,13 +15,13 @@ any size, stays sharp on retina screens, and recolours from the CSS variables in
 | `icon-192.png`, `icon-512.png` | Referenced by `site.webmanifest`. |
 | `og-image-folk-heart.png` | 1200×630 social sharing card featuring the current full folk-heart logo. |
 | `og-image-folk-heart.svg` | Editable source for the card above; it uses `logo-mark.png`. |
-| `apple-cake.jpg` | Photo used in the jablkový koláč product tile on the Pastries page. |
-| `sisky.jpeg` | Photo used in the šišky product tile on the Pastries page. |
+| `apple-cake.jpg` | Photo of the jablkový koláč. Not currently on any page — the Pastries tiles became a text list. |
+| `sisky.jpeg` | Photo of the šišky. Not currently on any page, same reason. |
+| `buchty.jpg` | Photo of the buchty, which are no longer on the menu. Kept as source material. |
 | `pattern-folk.svg` | Tiling background, blue at 4% opacity. Light sections. |
 | `pattern-folk-light.svg` | Same tile in cream, for the footer and CTA band. |
 | `divider.svg` | The `.folk-rule` section divider. |
-| `rosette.svg`, `star-flower.svg`, `swirl.svg`, `heart.svg` | Individual motifs used as clean homepage feature icons and the watermark on `.card`. |
-| `medallion-1…4.svg` | Product tile artwork, standing in for photographs. |
+| `rosette.svg`, `heart.svg` | Individual motifs used as clean homepage feature icons and the watermark on `.card`. |
 
 ## Swapping in the real logo
 
