@@ -43,3 +43,19 @@ rsvg-convert -w 180  -h 180 logo-badge.svg   -o apple-touch-icon.png
 rsvg-convert -w 192  -h 192 logo-badge.svg   -o icon-192.png
 rsvg-convert -w 512  -h 512 logo-badge.svg   -o icon-512.png
 ```
+
+## Keeping `logo-mark.png` small
+
+It is the hero image on the homepage, so it is the thing Google measures as LCP. The
+artwork is flat folk art in about six colours, which means a 16-colour palette is
+visually identical to 24-bit and roughly twenty times smaller. 880px covers the largest
+use (440 CSS px at 2×).
+
+```bash
+# needs: brew install pngquant
+sips -Z 880 original.png --out /tmp/logo-880.png
+pngquant 16 --nofs --speed 1 --force --output assets/img/logo-mark.png /tmp/logo-880.png
+```
+
+If you ever replace the logo, run it through this before committing. The unoptimised
+1.1 MB original is in the git history.
